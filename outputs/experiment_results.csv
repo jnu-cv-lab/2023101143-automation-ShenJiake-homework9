@@ -1,0 +1,7 @@
+Experiment Type,Optimizer,Learning Rate,Final Training Loss,Final Validation Loss,Final Training Accuracy,Final Validation Accuracy,Test Accuracy
+Optimizer,SGD,0.01,0.1097,0.0883,0.9667,0.9726,0.9784
+Optimizer,SGD+Momentum,0.01,0.0398,0.0410,0.9872,0.9875,0.9906
+Optimizer,Adam,0.01,0.0941,0.0920,0.9736,0.9762,0.9784
+LearningRate,Adam,0.1,2.3115,2.3060,0.1021,0.1129,0.1135
+LearningRate,Adam,0.01,0.0941,0.0920,0.9736,0.9762,0.9784
+LearningRate,Adam,0.001,0.0342,0.0454,0.9887,0.9877,0.9877

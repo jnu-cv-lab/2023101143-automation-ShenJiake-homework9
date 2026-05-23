@@ -1,0 +1,54 @@
+=== Environment Check ===
+Python: 3.14.4
+PyTorch: 2.12.0+cpu
+CUDA available: False
+Device: cpu
+Simple tensor operation result: [[4.0, 4.0], [10.0, 8.0]]
+
+=== Optimizer: SGD (lr=0.01) ===
+Epoch 01/5 | train loss 0.7800, train acc 0.7660 | val loss 0.2916, val acc 0.9124
+Epoch 02/5 | train loss 0.2458, train acc 0.9236 | val loss 0.1725, val acc 0.9493
+Epoch 03/5 | train loss 0.1688, train acc 0.9491 | val loss 0.1741, val acc 0.9436
+Epoch 04/5 | train loss 0.1314, train acc 0.9599 | val loss 0.1086, val acc 0.9684
+Epoch 05/5 | train loss 0.1097, train acc 0.9667 | val loss 0.0883, val acc 0.9726
+Test loss: 0.0729, test accuracy: 0.9784
+
+=== Optimizer: SGD+Momentum (lr=0.01) ===
+Epoch 01/5 | train loss 0.2965, train acc 0.9037 | val loss 0.0829, val acc 0.9749
+Epoch 02/5 | train loss 0.0784, train acc 0.9760 | val loss 0.0606, val acc 0.9834
+Epoch 03/5 | train loss 0.0570, train acc 0.9820 | val loss 0.0508, val acc 0.9846
+Epoch 04/5 | train loss 0.0457, train acc 0.9858 | val loss 0.0538, val acc 0.9843
+Epoch 05/5 | train loss 0.0398, train acc 0.9872 | val loss 0.0410, val acc 0.9875
+Test loss: 0.0296, test accuracy: 0.9906
+
+=== Optimizer: Adam (lr=0.01) ===
+Epoch 01/5 | train loss 0.2124, train acc 0.9327 | val loss 0.0955, val acc 0.9713
+Epoch 02/5 | train loss 0.1080, train acc 0.9686 | val loss 0.0844, val acc 0.9767
+Epoch 03/5 | train loss 0.1000, train acc 0.9712 | val loss 0.0818, val acc 0.9771
+Epoch 04/5 | train loss 0.0949, train acc 0.9730 | val loss 0.0932, val acc 0.9757
+Epoch 05/5 | train loss 0.0941, train acc 0.9736 | val loss 0.0920, val acc 0.9762
+Test loss: 0.0787, test accuracy: 0.9784
+
+=== LearningRate: Adam (lr=0.1) ===
+Epoch 01/5 | train loss 2.7524, train acc 0.1025 | val loss 2.3081, val acc 0.1129
+Epoch 02/5 | train loss 2.3103, train acc 0.1020 | val loss 2.3098, val acc 0.1000
+Epoch 03/5 | train loss 2.3112, train acc 0.1019 | val loss 2.3157, val acc 0.1061
+Epoch 04/5 | train loss 2.3103, train acc 0.1037 | val loss 2.3083, val acc 0.0969
+Epoch 05/5 | train loss 2.3115, train acc 0.1021 | val loss 2.3060, val acc 0.1129
+Test loss: 2.3053, test accuracy: 0.1135
+
+=== LearningRate: Adam (lr=0.01) ===
+Epoch 01/5 | train loss 0.2124, train acc 0.9327 | val loss 0.0955, val acc 0.9713
+Epoch 02/5 | train loss 0.1080, train acc 0.9686 | val loss 0.0844, val acc 0.9767
+Epoch 03/5 | train loss 0.1000, train acc 0.9712 | val loss 0.0818, val acc 0.9771
+Epoch 04/5 | train loss 0.0949, train acc 0.9730 | val loss 0.0932, val acc 0.9757
+Epoch 05/5 | train loss 0.0941, train acc 0.9736 | val loss 0.0920, val acc 0.9762
+Test loss: 0.0787, test accuracy: 0.9784
+
+=== LearningRate: Adam (lr=0.001) ===
+Epoch 01/5 | train loss 0.2296, train acc 0.9305 | val loss 0.0723, val acc 0.9782
+Epoch 02/5 | train loss 0.0696, train acc 0.9786 | val loss 0.0489, val acc 0.9847
+Epoch 03/5 | train loss 0.0508, train acc 0.9842 | val loss 0.0503, val acc 0.9852
+Epoch 04/5 | train loss 0.0393, train acc 0.9876 | val loss 0.0489, val acc 0.9863
+Epoch 05/5 | train loss 0.0342, train acc 0.9887 | val loss 0.0454, val acc 0.9877
+Test loss: 0.0384, test accuracy: 0.9877
